@@ -1,0 +1,6 @@
+/config
+/downloads
+/node_modules
+
+# misc
+.DS_Store

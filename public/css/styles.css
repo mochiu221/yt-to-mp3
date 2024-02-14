@@ -1,0 +1,87 @@
+html {
+    font-size: 20px;
+    background: #dfb4e0;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+input {
+    font-size: 20px;
+    padding: 5px 8px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    width: 440px;
+    max-width: 100%;
+}
+
+input:focus {
+    outline: none;
+    border-color: #333;
+}
+
+input[type="number"] {
+    width: 20px;
+    text-align: center;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.start {
+    display: inline-block;
+}
+
+#second {
+    width: 40px;
+}
+
+button {
+    font-size: 20px;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #7132ab;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #8258a9;
+}
+
+button:disabled {
+    background-color: #64586e;
+    cursor: default;
+}
+
+.centered {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formbox {
+    text-align: center;
+    max-width: 100%;
+}
+
+.input-field {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-field label {
+    margin-right: 5px;
+}
+
+#message {
+    min-height: 30px;
+}
